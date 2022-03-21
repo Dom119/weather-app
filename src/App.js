@@ -17,7 +17,7 @@ function App() {
   const setUpSearchValues = async (postcode, suburb) => {
     //checking, we need bot postcode and suburb
     if (postcode === "" || suburb === "") return;
-    let yourAPI = "APPID=977e38f95a1975a71ab670e6d142bab6";
+    let yourAPI = 
     //yourAPI=
 
     //get the long and lat for postcode and suburb name entered from input
